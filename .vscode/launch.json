@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "XxlJobExecutorApplication",
+            "request": "launch",
+            "mainClass": "com.xxl.job.executor.XxlJobExecutorApplication",
+            "projectName": "xxl-job-executor-sample-springboot"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-XxlJobAdminApplication<xxl-job-admin>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.xxl.job.admin.XxlJobAdminApplication",
+            "projectName": "xxl-job-admin",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
